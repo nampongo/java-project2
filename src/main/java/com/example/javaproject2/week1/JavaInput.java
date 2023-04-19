@@ -14,6 +14,7 @@ public class JavaInput {
         int asciiCode1 = is.read();
         int asciiCode2 = is.read();
 
+        // soutv, soutm
         System.out.println(asciiCode1);
         System.out.println(asciiCode2);
     }
