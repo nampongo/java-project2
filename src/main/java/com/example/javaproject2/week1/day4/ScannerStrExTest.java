@@ -6,3 +6,4 @@ public class ScannerStrExTest {
         scannerStrEx.inputStringsAndPlus();
     }
 }
+
