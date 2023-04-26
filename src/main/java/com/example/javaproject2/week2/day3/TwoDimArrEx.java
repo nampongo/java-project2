@@ -12,6 +12,13 @@ public class TwoDimArrEx {
         System.out.println("-----------");
     }
 
+    // 행 번호를 넣으면 그 행을 1로 값을 넣어주는 static method
+    public static void fillARow(int idx, int[][] arr) {
+        arr[idx][0] = 1;
+        arr[idx][1] = 1;
+        arr[idx][2] = 1;
+    }
+
     public static void main(String[] args) {
         int[][] arr = new int[3][3];
         printArray(arr);
@@ -22,6 +29,9 @@ public class TwoDimArrEx {
         printArray(arr);
 
         arr[1][1] = 5;
+        printArray(arr);
+
+        fillARow(2, arr);
         printArray(arr);
     }
 }
