@@ -7,7 +7,7 @@ public class HelloPrinter {
 
     public void repeatMessage(int n, String message) {
         for (int i = 0; i < n; i++) {
-            printer.print(message);
+            //printer.print(message);
         }
     }
 
